@@ -2,7 +2,7 @@
 
 Task Manager App
 
-Overview
+Overview 
 
 This is a Flutter-based task manager app that allows users to efficiently manage their tasks. The app includes user authentication, task management features, pagination for task retrieval, local storage for data persistence, and comprehensive unit tests to ensure functionality.
 
