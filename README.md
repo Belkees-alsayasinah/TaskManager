@@ -7,7 +7,7 @@ This is a Flutter-based task manager app that allows users to efficiently manage
 
 # Features
 
-User Authentication: Secure login using username and password via Dummy JSON Auth API.
+[User Authentication]: Secure login using username and password via Dummy JSON Auth API.
 
 Task Management: Users can view, add, edit, and delete tasks utilizing the Dummy JSON Todos API.
 
