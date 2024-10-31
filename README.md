@@ -9,15 +9,15 @@ This is a Flutter-based task manager app that allows users to efficiently manage
 
 [User Authentication]: Secure login using username and password via Dummy JSON Auth API.
 
-Task Management: Users can view, add, edit, and delete tasks utilizing the Dummy JSON Todos API.
+[Task Management]: Users can view, add, edit, and delete tasks utilizing the Dummy JSON Todos API.
 
-Pagination: Efficiently fetch a large number of tasks with pagination using the endpoint: https://dummyjson.com/todos?limit=10&skip=10.
+[Pagination]: Efficiently fetch a large number of tasks with pagination using the endpoint: https://dummyjson.com/todos?limit=10&skip=10.
 
-State Management: Implemented using GetX for efficient state management across the app.
+[State Management]: Implemented using GetX for efficient state management across the app.
 
-Local Storage: Tasks are persisted locally using Shared Preferences to maintain accessibility even after app closure.
+[Local Storage]: Tasks are persisted locally using Shared Preferences to maintain accessibility even after app closure.
 
-Unit Tests: Comprehensive unit tests cover CRUD operations, input validation, and network requests with mock responses.
+[Unit Tests]: Comprehensive unit tests cover CRUD operations, input validation, and network requests with mock responses.
 
 
 # Screenshots
