@@ -22,6 +22,8 @@ Unit Tests: Comprehensive unit tests cover CRUD operations, input validation, an
 
 
 Screenshots
+<img src="assets/images/Login.png" alt="LoginUI" width="300"/>
+
 ![LoginUI](assets/images/Login.png)
 ![Home Page UI](assets/images/HomePage.png)
 ![Add Task](assets/images/AddTask.png)
