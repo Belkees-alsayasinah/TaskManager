@@ -5,10 +5,11 @@ import 'package:task_manager_app/Components/my_button.dart';
 import 'package:task_manager_app/Components/my_text_field.dart';
 import 'package:task_manager_app/Widgets/LoginScreen/login_controller.dart';
 
-import '../../Style/constant.dart';
-import '../../Style/dimensions.dart';
-import '../../Style/strings.dart';
-import '../../Style/textStyle.dart';
+import '../../constant/colors.dart';
+import '../../constant/dimensions.dart';
+import '../../constant/strings.dart';
+import '../../constant/textStyle.dart';
+
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

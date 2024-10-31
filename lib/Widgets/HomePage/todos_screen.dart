@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_manager_app/Style/strings.dart';
 import 'package:task_manager_app/Components/task_item.dart';
 import 'package:task_manager_app/Widgets/HomePage/todos_controller.dart';
-import '../../Components/add_task_bottom_sheet.dart';
-import '../../Style/constant.dart';
-import '../../Style/dimensions.dart';
-import '../../Style/textStyle.dart';
 import '../../Components/custom_app_bar.dart';
+import '../../constant/colors.dart';
+import '../../constant/dimensions.dart';
+import '../../constant/strings.dart';
+import '../../constant/textStyle.dart';
 
 class HomePageUI extends StatelessWidget {
   final ScrollController _scrollController = ScrollController();

@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
+import '../constant/strings.dart';
+import '../constant/textStyle.dart';
 import 'add_task_bottom_sheet.dart';
-import '../Style/strings.dart'; // تأكد من تعديل المسار وفقًا لموقعك
-import '../Style/textStyle.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CustomAppBar({Key? key}) : super(key: key);

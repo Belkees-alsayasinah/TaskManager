@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
-import 'package:task_manager_app/Style/strings.dart';
 import 'package:task_manager_app/Widgets/HomePage/AddTask/add_task_controller.dart';
+import 'package:task_manager_app/constant/strings.dart';
 
 void main() {
   group('AddTaskController Input Validation', () {
@@ -35,8 +35,7 @@ void main() {
                       }),
                   ElevatedButton(
                     onPressed: () {
-                      if (controller.formstate.currentState!.validate()) {
-                      }
+                      if (controller.formstate.currentState!.validate()) {}
                     },
                     child: Text('Validate'),
                   ),
@@ -55,7 +54,6 @@ void main() {
 
     testWidgets('Non-empty input should pass validation',
         (WidgetTester tester) async {
-
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
@@ -64,18 +62,16 @@ void main() {
               child: Column(
                 children: [
                   TextFormField(
-                    onSaved: (value) => controller.todo = value ?? 'Hello',
+                      onSaved: (value) => controller.todo = value ?? 'Hello',
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return validationError;
                         }
                         return null;
-                      }
-                  ),
+                      }),
                   ElevatedButton(
                     onPressed: () {
-                      if (controller.formstate.currentState!.validate()) {
-                      }
+                      if (controller.formstate.currentState!.validate()) {}
                     },
                     child: Text('Validate'),
                   ),

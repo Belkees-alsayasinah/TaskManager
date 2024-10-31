@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:task_manager_app/Service/info.dart';
-import 'package:task_manager_app/Style/strings.dart';
 import 'package:task_manager_app/Widgets/HomePage/AddTask/add_task_model.dart';
 import 'package:task_manager_app/Widgets/HomePage/AddTask/add_task_service.dart';
 import '../../../Components/my_snackbar.dart';
+import '../../../constant/strings.dart';
 
 class AddTaskController extends GetxController {
   late String todo;

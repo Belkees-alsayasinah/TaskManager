@@ -5,7 +5,7 @@ import 'package:task_manager_app/Widgets/HomePage/todos_model.dart';
 import 'package:task_manager_app/Widgets/HomePage/todos_service.dart';
 import '../../Components/my_snackbar.dart';
 import '../../Service/info.dart';
-import '../../Style/strings.dart';
+import '../../constant/strings.dart';
 
 class GetTasksController extends GetxController {
   late RxBool isLoad;

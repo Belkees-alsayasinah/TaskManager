@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:task_manager_app/Components/my_button.dart';
-import 'package:task_manager_app/Style/constant.dart';
-import '../../Style/textStyle.dart';
-import '../Style/dimensions.dart';
-import '../Style/strings.dart';
 import '../Widgets/HomePage/AddTask/add_task_controller.dart';
+import '../constant/colors.dart';
+import '../constant/dimensions.dart';
+import '../constant/strings.dart';
+import '../constant/textStyle.dart';
 import 'my_text_field.dart';
 
 class AddTaskBottomSheet extends StatelessWidget {

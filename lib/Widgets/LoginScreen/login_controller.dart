@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:task_manager_app/Components/my_snackbar.dart';
 import 'package:task_manager_app/Widgets/HomePage/todos_screen.dart';
 
-import '../../Style/strings.dart';
+import '../../constant/strings.dart';
 import 'login_model.dart';
 import 'login_service.dart';
 

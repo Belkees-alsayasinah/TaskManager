@@ -3,11 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/get_instance.dart';
-import 'package:task_manager_app/Style/strings.dart';
 import 'package:task_manager_app/Widgets/HomePage/UpdateTask/update_task_controller.dart';
-import '../Style/textStyle.dart';
-import '../Style/constant.dart'; // تأكد من تعديل المسار وفقًا لموقعك
-import '../Style/dimensions.dart';
+
+import '../constant/colors.dart';
+import '../constant/dimensions.dart';
+import '../constant/strings.dart';
+import '../constant/textStyle.dart';
 
 class TaskItem extends StatelessWidget {
   final int id;

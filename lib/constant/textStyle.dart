@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager_app/Style/constant.dart';
+
+import 'colors.dart';
 
 class TextStyles {
   static const double _baseFontSize = 16.0;
-
   static TextStyle headingStyle = TextStyle(
     fontSize: _baseFontSize * 1.5,
     fontWeight: FontWeight.bold,

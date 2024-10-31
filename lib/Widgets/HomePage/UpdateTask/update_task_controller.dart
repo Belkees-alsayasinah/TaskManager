@@ -5,7 +5,7 @@ import 'package:task_manager_app/Widgets/HomePage/UpdateTask/update_task_service
 import 'package:task_manager_app/Widgets/HomePage/todos_controller.dart';
 
 import '../../../Components/my_snackbar.dart';
-import '../../../Style/strings.dart';
+import '../../../constant/strings.dart';
 
 class UpdateTaskController extends GetxController {
   final GetTasksController controller = Get.find();
