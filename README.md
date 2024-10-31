@@ -28,7 +28,7 @@ An IDE such as Android Studio or Visual Studio Code
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/task_manager_app.git
+git clone https://github.com/Belkees-alsayasinah/TaskManager.git
 
 Navigate to the project directory:
 
