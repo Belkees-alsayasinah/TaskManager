@@ -1,14 +1,11 @@
 # Task Manager App
 
 
-<font size="10">Task Manager App</font>
-
-
-Overview 
+# Overview 
 
 This is a Flutter-based task manager app that allows users to efficiently manage their tasks. The app includes user authentication, task management features, pagination for task retrieval, local storage for data persistence, and comprehensive unit tests to ensure functionality.
 
-Features
+# Features
 
 User Authentication: Secure login using username and password via Dummy JSON Auth API.
 
@@ -18,12 +15,12 @@ Pagination: Efficiently fetch a large number of tasks with pagination using the 
 
 State Management: Implemented using GetX for efficient state management across the app.
 
-Local Storage: Tasks are persisted locally using [Shared Preferences] to maintain accessibility even after app closure.
+Local Storage: Tasks are persisted locally using Shared Preferences to maintain accessibility even after app closure.
 
 Unit Tests: Comprehensive unit tests cover CRUD operations, input validation, and network requests with mock responses.
 
 
-Screenshots
+# Screenshots
 <p align="center">
   <img src="assets/images/Login.png" alt="LoginUI" width="200"/>
   <img src="assets/images/HomePage.png" alt="HomePageUI" width="200"/>
@@ -31,7 +28,7 @@ Screenshots
 </p>
 
 
-Getting Started
+# Getting Started
 
 Prerequisites
 Flutter SDK
@@ -56,7 +53,7 @@ Run the app:
 flutter run
 
 
-Challenges Faced
+# Challenges Faced
 
 - State Management: When reading the project requirements, I didn’t realize that the options for state management were specifically limited. I initially interpreted them as Bloc, Provider, or others, and I started working with GetX. I noticed the specified options later in the project. Although I have practical experience with Bloc state management, I couldn’t switch due to time constraints. However, I have the ability to quickly learn any new tool or technique if required.
 
@@ -64,7 +61,7 @@ Challenges Faced
 
 - Unit Testing: Writing comprehensive unit tests, especially for asynchronous operations and mock responses, posed a challenge in ensuring coverage of all critical functionalities. The tests may not cover every scenario since this was my first experience with unit testing, and given the time constraints, the results were not as ideal as I wanted. However, I am quick to learn and can enhance coverage to meet all project requirements in the future.
 
-Conclusion
+# Conclusion
 This project demonstrates my proficiency in Flutter development, focusing on clean architecture, effective state management, and rigorous testing practices. Thank you for considering my application!
 
 
