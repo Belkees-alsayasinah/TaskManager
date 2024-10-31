@@ -40,8 +40,7 @@ void main() {
       final model = AddTaskModel(todo: 'Test 400', id: null);
       final result = await addTaskService.addTask(model);
       expect(result, false);
-      expect(addTaskService.message,
-          "Something wrong!"); // يجب أن يتم تعيين الرسالة بشكل صحيح
+      expect(addTaskService.message, "Something wrong!");
     });
 
     test('should return false for other error codes', () async {

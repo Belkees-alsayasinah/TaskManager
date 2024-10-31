@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_manager_app/Components/MyButton.dart';
+import 'package:task_manager_app/Components/my_button.dart';
 import 'package:task_manager_app/Components/my_text_field.dart';
 import 'package:task_manager_app/Widgets/LoginScreen/login_controller.dart';
 

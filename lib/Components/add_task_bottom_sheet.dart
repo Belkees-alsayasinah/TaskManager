@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_manager_app/Components/MyButton.dart';
+import 'package:task_manager_app/Components/my_button.dart';
 import 'package:task_manager_app/Style/constant.dart';
 import '../../Style/textStyle.dart';
 import '../Style/dimensions.dart';
@@ -11,7 +11,6 @@ import 'my_text_field.dart';
 class AddTaskBottomSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final TextEditingController taskNameController = TextEditingController();
     final double screenWidth = getScreenWidth(context);
     final double screenHeight = getScreenHeight(context);
     AddTaskController controller = Get.put(AddTaskController());
