@@ -7,6 +7,7 @@ Overview
 This is a Flutter-based task manager app that allows users to efficiently manage their tasks. The app includes user authentication, task management features, pagination for task retrieval, local storage for data persistence, and comprehensive unit tests to ensure functionality.
 
 Features
+
 User Authentication: Secure login using username and password via Dummy JSON Auth API.
 
 Task Management: Users can view, add, edit, and delete tasks utilizing the Dummy JSON Todos API.
@@ -23,7 +24,7 @@ Unit Tests: Comprehensive unit tests cover CRUD operations, input validation, an
 Screenshots
 ![LoginUI](assets/images/Login.png)
 ![Home Page UI](assets/images/HomePage.png)
-![Add Task](assets/images/AddTesk.png)
+![Add Task](assets/images/AddTask.png)
 
 Getting Started
 
