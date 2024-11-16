@@ -55,11 +55,10 @@ flutter run
 
 # Challenges Faced
 
-- State Management: When reading the project requirements, I didn’t realize that the options for state management were specifically limited. I initially interpreted them as Bloc, Provider, or others, and I started working with GetX. I noticed the specified options later in the project. Although I have practical experience with Bloc state management, I couldn’t switch due to time constraints. However, I have the ability to quickly learn any new tool or technique if required.
-
+- State Management Complexity: Implementing state management using GetX required a deeper understanding of the architecture and effective handling of state updates across multiple widgets.
 - Pagination Implementation: Ensuring smooth pagination while maintaining performance was challenging, particularly with managing API requests and local data synchronization.
+- Unit Testing: Writing comprehensive unit tests, especially for asynchronous operations and mock responses, posed a challenge in ensuring the coverage of all critical functionalities.
 
-- Unit Testing: Writing comprehensive unit tests, especially for asynchronous operations and mock responses, posed a challenge in ensuring coverage of all critical functionalities. The tests may not cover every scenario since this was my first experience with unit testing, and given the time constraints, the results were not as ideal as I wanted. However, I am quick to learn and can enhance coverage to meet all project requirements in the future.
 
 # Conclusion
 This project demonstrates my proficiency in Flutter development, focusing on clean architecture, effective state management, and rigorous testing practices. Thank you for considering my application!
